@@ -12,7 +12,7 @@ st.title("🧬 Genetic Disorder Risk Prioritization")
 st.write("AI-based genetic disorder risk prediction dashboard")
 
 # Load prediction results
-df = pd.read_csv("/content/patient_priority_results.csv")
+df = pd.read_csv("patient_priority_results.csv")
 
 # Summary metrics
 total = len(df)
